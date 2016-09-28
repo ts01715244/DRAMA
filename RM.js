@@ -34,3 +34,11 @@ function readGG(id) {
   document.getElementById("player").innerHTML = read(id);		
 }
 
+function videoGG(id,name) { 
+  str = '<marquee>'+name+'</marquee><iframe src="https://docs.google.com/file/d/'+id+'/preview" width="100%" height="350" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>';
+  return str;
+}
+
+function videoG(id,name) {
+  document.getElementById("player1").innerHTML = videoGG(id,name);		
+}
