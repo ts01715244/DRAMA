@@ -39,6 +39,6 @@ function videoGG1(id,name) {
   return str;
 }
 
-function videoG(id,name) {
+function videoG1(id,name) {
   document.getElementById("player1").innerHTML = videoGG1(id,name);		
 }
