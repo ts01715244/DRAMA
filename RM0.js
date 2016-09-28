@@ -4,5 +4,5 @@ function videoGG0(id,name) {
 }
 
 function videoG0(id,name) {
-  document.getElementById("player1").innerHTML = videoGG0(id,name);		
+  document.getElementById("player0").innerHTML = videoGG0(id,name);		
 }
